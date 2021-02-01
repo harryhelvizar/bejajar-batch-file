@@ -24,7 +24,22 @@ echo.
 
 ::variabel input
 set /p input= "Your name is = "
-echo Thanks %input% for stopping by on my blog 
+echo Thanks %input% for stopping by on my blog
+echo.
+
+:ulang
+
+echo etss coba program perkalian ku dulu ya %input% :)
+set /p input1= "Nilai a = "
+set /p input2= "Nilai b = "
+
+set /a jumlah= %input1% * %input2%
+
+echo hasil = %jumlah%
+echo.
+echo Terima kasih...
+
+goto ulang
 
 
 pause>nul
